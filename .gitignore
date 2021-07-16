@@ -4,3 +4,11 @@ dist
 dist-ssr
 *.local
 .idea
+
+.yarn-integrity
+**/.yarn/*
+!**/.yarn/cache
+!**/.yarn/releases
+!**/.yarn/plugins
+!**/.yarn/sdks
+!**/.yarn/versions
